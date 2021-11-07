@@ -1,26 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <div>
+        <navbar/>
+        <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory relative">
+            <homeSection></homeSection>
+            <aboutSection></aboutSection>
+            <skillSection></skillSection>
+            <portfolioSection></portfolioSection>
+            <contactSection></contactSection>
+        </main>
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import './assets/tailwind.css'
+    import navbar from "./components/Navbar"
+    import homeSection from "./components/Home-section.vue"
+    import aboutSection from "./components/About"
+    import skillSection from "./components/Skill"
+    import portfolioSection from "./components/Portfolio"
+    import contactSection from "./components/Contact"
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+
+    export default {
+        name: 'App',
+        components: {
+            navbar,
+            homeSection,
+            aboutSection,
+            skillSection,
+            portfolioSection,
+            contactSection
+        }
+    }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

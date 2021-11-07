@@ -1,0 +1,14 @@
+#home{
+    text-align: center;
+    background-image: url("../images/volcan-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav {
+    z-index: 10
+}
+
+nav.scrolled {
+    @apply shadow-2xl;
+    border-bottom: 0px;
+}
