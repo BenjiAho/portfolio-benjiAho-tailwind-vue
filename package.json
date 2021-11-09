@@ -18,7 +18,10 @@
     "tailwindcss-gradients": "^3.0.0",
     "tailwindcss-scroll-snap": "^1.1.0",
     "tailwindcss-typography": "^3.1.0",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-scroll-snap": "^0.1.11",
+    "vue-scrollto": "^2.20.0",
+    "vue3-smooth-scroll": "^0.8.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -28,6 +31,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
+    "tailwind-scroll-behavior": "^1.0.0",
     "tailwindcss-flexbox-order": "^1.1.0",
     "tailwindcss-spinner": "^1.2.0",
     "tailwindcss-tooltip-arrow-after": "^1.0.0",

@@ -1,15 +1,15 @@
 <template>
 
-    <div>
+
         <navbar/>
-        <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory relative">
+        <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory relative smooth-scroll">
             <homeSection></homeSection>
             <aboutSection></aboutSection>
             <skillSection></skillSection>
             <portfolioSection></portfolioSection>
             <contactSection></contactSection>
         </main>
-    </div>
+
 </template>
 
 <script>

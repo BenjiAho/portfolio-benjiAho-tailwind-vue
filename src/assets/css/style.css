@@ -12,3 +12,20 @@ nav.scrolled {
     @apply shadow-2xl;
     border-bottom: 0px;
 }
+
+
+/*TEST SCROLL*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+    overflow: hidden;
+}
+.smooth-scroll {
+    /* CSS Smooth Scroll */
+    /*overflow-y: scroll;*/
+    scroll-behavior: smooth;
+    /*scroll-snap-type: y mandatory;*/
+}

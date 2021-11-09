@@ -5,11 +5,11 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
-    scrollSnapType: ['responsive'],
-    backgroundImage: {
-      'volcan': "url('./src/assets/images/volcan-background.jpg')",
+    extend: {
+      backgroundColor: ['active'],
     },
+    scrollSnapType: ['responsive'],
+    scrollBehavior: ['motion-safe', 'motion-reduce', 'responsive'],
   },
-  plugins: [require('tailwindcss-scroll-snap')],
+  plugins: [require('tailwindcss-scroll-snap'),('tailwind-scroll-behavior')],
 }
