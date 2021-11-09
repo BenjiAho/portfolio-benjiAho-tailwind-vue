@@ -9,7 +9,7 @@
                     Benjamin Aho-nienne Portfolio</p>
             </li>
             <li class="-mb-px mr-1">
-                <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-gray-500 font-semibold hover:text-blue-800 active:text-red-800"
+                <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-gray-500 font-semibold hover:text-blue-800 active:nav-active"
                    href="#home">Home</a>
             </li>
             <li class="mr-1">

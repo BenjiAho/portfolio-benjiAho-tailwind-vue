@@ -19,6 +19,7 @@
     "tailwindcss-scroll-snap": "^1.1.0",
     "tailwindcss-typography": "^3.1.0",
     "vue": "^3.0.0",
+    "vue-router": "^4.0.12",
     "vue-scroll-snap": "^0.1.11",
     "vue-scrollto": "^2.20.0",
     "vue3-smooth-scroll": "^0.8.1"

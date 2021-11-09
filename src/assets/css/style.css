@@ -29,3 +29,10 @@ body {
     scroll-behavior: smooth;
     /*scroll-snap-type: y mandatory;*/
 }
+
+@variants active {
+    .nav-active{
+        background-color: aqua;
+        color: blueviolet;
+    }
+}
