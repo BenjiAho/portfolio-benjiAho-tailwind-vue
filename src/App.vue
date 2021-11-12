@@ -3,7 +3,7 @@
 
         <navbar/>
         <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory relative smooth-scroll">
-            <homeSection></homeSection>
+            <home></home>
             <aboutSection></aboutSection>
             <skillSection></skillSection>
             <portfolioSection></portfolioSection>
@@ -15,7 +15,7 @@
 <script>
     import './assets/tailwind.css'
     import navbar from "./components/Navbar"
-    import homeSection from "./components/Home-section.vue"
+    import home from "./components/Home-section.vue"
     import aboutSection from "./components/About"
     import skillSection from "./components/Skill"
     import portfolioSection from "./components/Portfolio"
@@ -26,7 +26,7 @@
         name: 'App',
         components: {
             navbar,
-            homeSection,
+            home,
             aboutSection,
             skillSection,
             portfolioSection,
