@@ -1,12 +1,13 @@
 <template>
-    <section id="home" class="w-full h-screen snap-start flex flex-col space-y-12 items-center justify-center">
-        <h1  class="text-3xl">Bienvenu sur le portfolio de Benjamin Aho-nienne</h1>
+    <section id="home" class="w-full h-screen snap-start flex flex-col space-y-12 items-center justify-center font-mono">
+        <h1  class="text-3xl font-bold md:text-5xl">Bienvenu sur le portfolio de Benjamin Aho-nienne</h1>
 
         <img class="h-1/6 rounded-full shadow-2xl" src="../assets/images/Benjamin_crop.jpg" alt="profil image">
 
         <TypeEffect />
-        <span class="opacity-25 flex justify-center animate-bounce rounded-full p-4 bg-transparent text-black text-sm">
-            <img class="object-bottom" src="../assets/images/scroll-down.svg" alt="scroll down mouse icon">
+
+        <span class="opacity-50 flex justify-center animate-bounce rounded-full p-4 bg-white text-black text-sm w-20 ">
+            <img class="" src="../assets/images/arrow-down.png" alt="scroll down mouse icon">
         </span>
 
     </section>

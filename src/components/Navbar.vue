@@ -22,8 +22,8 @@
                 <a >About</a>
             </a>
 
-            <a href="#skill" @click="isOpen = false" class="flex items-center p-4 bg-white hover:bg-indigo-500 hover:text-white  " :class="!isOpen ? 'invisible' : 'visible transform duration-100'">
-                <a >Skill</a>
+            <a href="#services" @click="isOpen = false" class="flex items-center p-4 bg-white hover:bg-indigo-500 hover:text-white  " :class="!isOpen ? 'invisible' : 'visible transform duration-100'">
+                <a >Mes Services</a>
             </a>
 
             <a href="#portfolio" @click="isOpen = false" class="flex items-center bg-white p-4 hover:bg-indigo-500 hover:text-white " :class="!isOpen ? 'invisible' : 'visible transform duration-100'">

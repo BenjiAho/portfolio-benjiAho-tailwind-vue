@@ -1,7 +1,7 @@
 <template>
-    <div class="container text-2xl">
-        <h1>Voici mon portfolio utilisant :
-            <span class="typed-text text-green-100">{{ typeValue }}</span>
+    <div class="container text-2xl md:text-4xl flex-col">
+        <h1 class="font-bold">Voici mon portfolio utilisant : <br>
+            <span class="typed-text text-green-100 italic">{{ typeValue }}</span>
             <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
         </h1>
     </div>
@@ -14,7 +14,7 @@
             return {
                 typeValue: '',
                 typeStatus: false,
-                typeArray: ['fun', 'awesome', 'a journey', 'life'],
+                typeArray: ['vue3','tailwind'],
                 typingSpeed: 200,
                 erasingSpeed: 100,
                 newTextDelay: 2000,

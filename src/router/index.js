@@ -3,7 +3,7 @@ import homeSection from "../components/Home-section.vue";
 import aboutSection from "../components/About.vue";
 import contactSection from "../components/Contact.vue";
 import portfolioSection from "../components/Portfolio.vue";
-import skillSection from "../components/Skill.vue";
+import skillSection from "../components/Services.vue";
 
 const routes = [
     {

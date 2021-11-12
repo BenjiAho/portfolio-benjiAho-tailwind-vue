@@ -1,11 +1,9 @@
 <template>
-
-
         <navbar/>
         <main class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory relative smooth-scroll">
             <home></home>
             <aboutSection></aboutSection>
-            <skillSection></skillSection>
+            <Services></Services>
             <portfolioSection></portfolioSection>
             <contactSection></contactSection>
         </main>
@@ -17,7 +15,7 @@
     import navbar from "./components/Navbar"
     import home from "./components/Home-section.vue"
     import aboutSection from "./components/About"
-    import skillSection from "./components/Skill"
+    import Services from "./components/Services"
     import portfolioSection from "./components/Portfolio"
     import contactSection from "./components/Contact"
 
@@ -28,7 +26,7 @@
             navbar,
             home,
             aboutSection,
-            skillSection,
+            Services,
             portfolioSection,
             contactSection
         }
