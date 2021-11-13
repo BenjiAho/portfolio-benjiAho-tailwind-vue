@@ -36,3 +36,47 @@ body {
         color: blueviolet;
     }
 }
+
+.icon-devweb {
+    content: url('https://cdn-icons-png.flaticon.com/512/2282/2282272.png');
+    width:70px;
+    height: 77px;
+}
+.icon-github {
+    content: url('https://cdn-icons-png.flaticon.com/512/270/270798.png');
+    width:70px;
+    height: 77px;
+}
+.icon-wordpress {
+    content: url('https://cdn-icons-png.flaticon.com/512/174/174881.png');
+    width:70px;
+    height: 75px;
+}
+.icon-figma {
+    content: url('https://cdn-icons-png.flaticon.com/512/5968/5968705.png');
+    width:70px;
+    height: 77px;
+}
+.icon-webdesign {
+    content: url('https://cdn-icons-png.flaticon.com/512/1055/1055666.png');
+    width:70px;
+    height: 80px;
+}
+.icon-photo {
+    content: url('https://cdn-icons-png.flaticon.com/512/1042/1042339.png');
+    width:70px;
+}
+
+/*shadow*/
+.shadow-smooth {
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 5px 10px rgba(0,0,0,0.15),
+    0px 10px 2px rgba(0,0,0,0.1),
+    0px 15px 30px rgba(0,0,0,0.1);
+}.box-shadow-smooth {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+    0 4px 4px rgba(0,0,0,0.12),
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}

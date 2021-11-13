@@ -21,6 +21,7 @@
     "timers": "^0.1.1",
     "tsparticles": "^1.37.3",
     "vue": "^3.0.0",
+    "vue-kinesis": "^2.0.5",
     "vue-router": "^4.0.12",
     "vue-scroll-snap": "^0.1.11",
     "vue-scrollto": "^2.20.0",
