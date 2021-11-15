@@ -1,20 +1,19 @@
 <template>
     <kinesis-container id="services" class="snap-start">
-        <div class="w-full h-screen bg-white  flex flex-col space-y-12 items-center justify-center">
+        <div class="w-full h-screen bg-gray-200  flex flex-col space-y-12 items-center justify-center">
 
-            <kinesis-element :strength="50" class="text-3xl lg:text-5xl font-bold text-gray-800 shadow-smooth">
+            <h3 class="text-3xl lg:text-5xl font-bold text-gray-800 shadow-smooth">
                 Mes Services
-            </kinesis-element>
-            <kinesis-element :strength="100">
+            </h3>
+            <kinesis-element :strength="100" class="flex-none">
                 <div class="circle circle-purple flex-row"></div>
             </kinesis-element>
-            <div class="sm:flex text-black w-screen md:ml-96  mx-10 md:space-x-20 space-y-4 md:space-y-0 ">
+            <div class="sm:flex ml-20 md:ml-0 text-black w-screen justify-center items-center  mx-10 md:space-x-20 space-y-4 md:space-y-0 ">
 
-
-                <kinesis-element :strength="20" class="sm:flex md:w-64">
-                    <div class="single-service flex sm:flex-row md:flex-col">
+                <div class="sm:flex md:w-36">
+                    <div class="single-service flex sm:flex-row md:flex-col ml-4 md:mt-10">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
-                            <i class="service-icon fa icon-devweb effect"></i>
+                            <i class="service-icon fa icon-devweb effect w-14 md:w-11/12"></i>
                         </div>
                         <div class="service-content">
                             <h3 class="font-bold">DEVELOPPEMENT WEB</h3>
@@ -25,12 +24,12 @@
                             <div class="circle circle-purple2 flex-none"></div>
                         </kinesis-element>
                     </div>
-                </kinesis-element>
+                </div>
 
-                <kinesis-element :strength="30" class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
-                            <i class="service-icon fa icon-github effect "></i>
+                            <i class="service-icon fa icon-github effect w-14 md:w-11/12"></i>
                         </div>
                         <div class="service-content">
                             <h3 class="font-bold">GITHUB</h3>
@@ -38,26 +37,26 @@
                             <p>Travail quotidien avec Github</p>
                         </div>
                     </div>
-                </kinesis-element>
+                </div>
 
-                <kinesis-element :strength="40" class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
-                            <i class="fa service-icon icon-wordpress effect"></i>
+                            <i class="fa service-icon icon-wordpress effect w-14 md:w-11/12"></i>
                         </div>
                         <div class="service-content">
                             <h3 class="font-bold">WORDPRESS</h3>
                             <div class="s-line"></div>
-                            <p>Création et maintenance de site avec wordpress</p>
+                            <p>Le bien connu CMS</p>
                         </div>
                     </div>
-                </kinesis-element>
+                </div>
 
 
-                <kinesis-element :strength="30" class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
-                            <i class="fa service-icon icon-figma effect"></i>
+                            <i class="fa service-icon icon-figma effect w-14 md:w-11/12"></i>
                         </div>
                         <div class="service-content">
                             <h3 class="font-bold">FIGMA</h3>
@@ -65,12 +64,12 @@
                             <p>Maquettage avec FIGMA</p>
                         </div>
                     </div>
-                </kinesis-element>
+                </div>
 
-                <kinesis-element :strength="40" class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
-                            <image alt="icon-webdesign" class="fa service-icon icon-webdesign effect"></image>
+                            <image alt="icon-webdesign" class="fa service-icon icon-webdesign effect w-14 md:w-11/12"></image>
                         </div>
                         <div class="service-content align-middle">
                             <h3 class="font-bold">WEBDESIGN</h3>
@@ -81,12 +80,12 @@
                     <kinesis-element :strength="100">
                         <div class="circle circle-purple3 flex-none"></div>
                     </kinesis-element>
-                </kinesis-element>
+                </div>
 
-                <kinesis-element :strength="30" class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
-                            <i class="fa service-icon icon-photo effect"></i>
+                            <i class="fa service-icon icon-photo effect w-14 md:w-11/12"></i>
                         </div>
                         <div class="service-content align-bottom">
                             <h3 class="font-bold">PHOTOGRAPHIE CRÉATIVE</h3>
@@ -95,7 +94,7 @@
                         </div>
                     </div>
 
-                </kinesis-element>
+                </div>
                 <!-- background-circles-props -->
 
 

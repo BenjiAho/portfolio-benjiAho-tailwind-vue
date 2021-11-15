@@ -8,7 +8,9 @@ import 'tailwind-scroll-behavior'
 import router from './router'
 
 import VueKinesis from "vue-kinesis";
-import VueParticles from 'vue-particles'
+import VueParticles from 'vue-particles';
+
+
 
 createApp(App).use(router).use(VueParticles).use(VueKinesis).mount('#app')
 

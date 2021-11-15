@@ -1,6 +1,7 @@
 <template>
-    <section id="contact" class="w-full h-screen bg-indigo-200 snap-start">
-        Contact
+    <section id="contact" class="w-full max-h-screen h-screen snap-start space-y-12 bg-gray-900  font-mono carousel-wrapper flex flex-col justify-center items-center">
+        <h5>Contact</h5>
+        <p class="md:text-9xl text-4xl"> en cours de développement</p>
     </section>
 </template>
 

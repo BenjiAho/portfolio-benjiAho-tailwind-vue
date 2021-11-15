@@ -36,35 +36,28 @@ body {
         color: blueviolet;
     }
 }
-
 .icon-devweb {
     content: url('https://cdn-icons-png.flaticon.com/512/2282/2282272.png');
-    width:70px;
-    height: 77px;
 }
 .icon-github {
     content: url('https://cdn-icons-png.flaticon.com/512/270/270798.png');
-    width:70px;
-    height: 77px;
+
 }
 .icon-wordpress {
     content: url('https://cdn-icons-png.flaticon.com/512/174/174881.png');
-    width:70px;
-    height: 75px;
+
 }
 .icon-figma {
     content: url('https://cdn-icons-png.flaticon.com/512/5968/5968705.png');
-    width:70px;
-    height: 77px;
+
 }
 .icon-webdesign {
     content: url('https://cdn-icons-png.flaticon.com/512/1055/1055666.png');
-    width:70px;
-    height: 80px;
+
 }
 .icon-photo {
     content: url('https://cdn-icons-png.flaticon.com/512/1042/1042339.png');
-    width:70px;
+
 }
 
 /*shadow*/

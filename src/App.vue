@@ -34,4 +34,7 @@
 </script>
 
 <style>
+    main{
+        overflow: hidden;
+    }
 </style>
