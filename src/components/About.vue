@@ -3,7 +3,7 @@
              class="w-full h-screen bg-black snap-start w-full h-screen snap-start flex flex-col items-center justify-center">
         <Particles></Particles>
         <h2 class="text-2xl lg:text-5xl font-bold">About Me</h2>
-        <div class="flex w-screen h-4/5">
+        <div class="flex w-screen h-4/5 font-mono">
             <div class="md:flex items-center justify-center w-screen">
 
                 <div class="lg:w-1/3 md:text-2xl mx-20 lg:ml-0">

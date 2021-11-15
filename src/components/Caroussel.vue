@@ -1,6 +1,6 @@
 <template>
     <carousel :settings="settings" :breakpoints="breakpoints" class="w-10/12 ">
-        <slide v-for="slide in images" :key="slide">
+        <slide v-for="slide in images" :key="slide" class="flex flex-col">
             <img class="carousel__item carousel__viewport" draggable="true" :src="slide.img"/>
         </slide>
 
@@ -28,7 +28,7 @@
         data() {
             return {
                 images: [
-                    { id: 1, img: "https://picsum.photos/300/300" },
+                    { id: 1,img: "https://picsum.photos/300/300" },
                     { id: 2, img: "https://picsum.photos/300/301" },
                     { id: 3, img: "https://picsum.photos/300/302" },
                     { id: 4, img: "https://picsum.photos/300/303" },
@@ -37,8 +37,12 @@
                 ],
                 // carousel settings
                 settings: {
+                    wrapAround:"true",
                     itemsToShow: 1,
-                    snapAlign: "center"
+                    snapAlign: "center",
+                    transition: 300,
+                    autoplay: 5000,
+
                 },
                 // breakpoints are mobile first
                 // any settings not specified will fallback to the carousel settings

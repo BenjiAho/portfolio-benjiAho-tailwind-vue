@@ -1,17 +1,17 @@
 <template>
-    <kinesis-container id="services" class="snap-start">
+    <kinesis-container id="services" class="snap-start font-mono">
         <div class="w-full h-screen bg-gray-200  flex flex-col space-y-12 items-center justify-center">
 
             <h3 class="text-3xl lg:text-5xl font-bold text-gray-800 shadow-smooth">
-                Mes Services
+                Soft Skills
             </h3>
             <kinesis-element :strength="100" class="flex-none">
                 <div class="circle circle-purple flex-row"></div>
             </kinesis-element>
             <div class="sm:flex ml-20 md:ml-0 text-black w-screen justify-center items-center  mx-10 md:space-x-20 space-y-4 md:space-y-0 ">
 
-                <div class="sm:flex md:w-36">
-                    <div class="single-service flex sm:flex-row md:flex-col ml-4 md:mt-10">
+                <div class="sm:flex md:w-36 flex ">
+                    <div class="single-service flex sm:flex-row md:flex-col md:mt-10">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
                             <i class="service-icon fa icon-devweb effect w-14 md:w-11/12"></i>
                         </div>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
 
-                <div class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36 flex ">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
                             <i class="service-icon fa icon-github effect w-14 md:w-11/12"></i>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
 
-                <div class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36 flex ">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
                             <i class="fa service-icon icon-wordpress effect w-14 md:w-11/12"></i>
@@ -53,7 +53,7 @@
                 </div>
 
 
-                <div class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36 flex ">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
                             <i class="fa service-icon icon-figma effect w-14 md:w-11/12"></i>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
 
-                <div class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36 flex ">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
                             <image alt="icon-webdesign" class="fa service-icon icon-webdesign effect w-14 md:w-11/12"></image>
@@ -82,7 +82,7 @@
                     </kinesis-element>
                 </div>
 
-                <div class="sm:flex md:w-36">
+                <div class="sm:flex md:w-36 flex ">
                     <div class="single-service flex sm:flex-row md:flex-col">
                         <div class="transition-transform duration-1000 ease-out transform hover:scale-150 hover:rotate-45">
                             <i class="fa service-icon icon-photo effect w-14 md:w-11/12"></i>
