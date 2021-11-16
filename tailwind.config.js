@@ -6,8 +6,10 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundColor: ['active'],
+      backgroundColor: ['hover', 'focus', 'active'],
       rotate: ['responsive', 'hover', 'focus', 'group-hover'],
+      opacity:['hover', 'focus'],
+      transitionProperty: ['responsive', 'motion-safe', 'motion-reduce'],
     },
     scrollSnapType: ['responsive'],
     scrollBehavior: ['motion-safe', 'motion-reduce', 'responsive'],

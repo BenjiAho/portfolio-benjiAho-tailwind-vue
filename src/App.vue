@@ -7,7 +7,6 @@
             <portfolioSection></portfolioSection>
             <contactSection></contactSection>
         </main>
-
 </template>
 
 <script>

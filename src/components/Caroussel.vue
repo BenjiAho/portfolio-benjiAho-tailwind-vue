@@ -1,7 +1,8 @@
 <template>
     <carousel :settings="settings" :breakpoints="breakpoints" class="w-10/12 ">
-        <slide v-for="slide in images" :key="slide" class="flex flex-col">
-            <img class="carousel__item carousel__viewport" draggable="true" :src="slide.img"/>
+        <slide id="slide" v-for="slide in images" :key="slide" class="flex flex-col">
+            <img class="carousel__item carousel__viewport " draggable="true" :src="slide.img"/>
+                <p class="text-opacity-0 hover:text-opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">{{slide.text}}</p>
         </slide>
 
         <template #addons>
@@ -28,20 +29,21 @@
         data() {
             return {
                 images: [
-                    { id: 1,img: "https://picsum.photos/300/300" },
-                    { id: 2, img: "https://picsum.photos/300/301" },
-                    { id: 3, img: "https://picsum.photos/300/302" },
-                    { id: 4, img: "https://picsum.photos/300/303" },
-                    { id: 5, img: "https://picsum.photos/300/304" },
-                    { id: 6, img: "https://picsum.photos/300/305" },
+                    {id: 1, img: "https://picsum.photos/300/300", text: "img1"},
+                    {id: 2, img: "https://picsum.photos/300/301", text: "img2"},
+                    {id: 3, img: "https://picsum.photos/300/302", text: "img3"},
+                    {id: 4, img: "https://picsum.photos/300/303", text: "img4"},
+                    {id: 5, img: "https://picsum.photos/300/304", text: "img5"},
+                    {id: 6, img: "https://picsum.photos/300/305", text: "img6"},
                 ],
                 // carousel settings
                 settings: {
-                    wrapAround:"true",
+                    wrapAround: "true",
                     itemsToShow: 1,
                     snapAlign: "center",
                     transition: 300,
                     autoplay: 5000,
+                    touchDrag: true,
 
                 },
                 // breakpoints are mobile first
@@ -57,7 +59,7 @@
                         itemsToShow: 3,
                         snapAlign: "start"
                     }
-                }
+                },
             }
         },
     }
@@ -73,18 +75,22 @@
         justify-content: center;
         align-items: center;
     }
-
-    .carousel__viewport{
+    img:hover{
+        opacity: 0.5;
+    }
+    .carousel__viewport {
         min-height: 80%;
     }
 
     .carousel__slide {
         padding: 10px;
     }
-
+#slide>p{
+    width: 25%;
+}
     .carousel__prev,
     .carousel__next {
         box-sizing: content-box;
-        border: 5px solid white;
+        border: 5px solid #deb5ff;
     }
 </style>

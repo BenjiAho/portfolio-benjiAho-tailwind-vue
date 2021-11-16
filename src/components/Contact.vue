@@ -2,7 +2,7 @@
     <section id="contact"
              class="w-full max-h-screen h-screen snap-start space-y-12 bg-gray-900  font-mono carousel-wrapper flex flex-col justify-center items-center font-mono">
 
-        <h6 class="text-2xl">Bientôt en service</h6>
+        <h6 class="text-2xl text-red-600">Bientôt en service</h6>
         <div class="container bg-gray-700">
             <form class="text-black ">
                 <label class="text-white font-bold underline">Name</label>

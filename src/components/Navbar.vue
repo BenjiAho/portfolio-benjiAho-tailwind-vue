@@ -12,24 +12,24 @@
 
         <aside class="transform top-0 left-0 w-64 bg-transparent fixed overflow-auto ease-in-out transition-all duration-1000 z-30 mt-20 space-y-0.5">
 
-            <a href="#home" @click="isOpen = false" class="flex items-center p-4 bg-white  duration-1000 hover:bg-gray-800 hover:text-white"
+            <a href="#home" @click="isOpen = false" class="flex items-center p-4 bg-white  duration-1000 hover:bg-purple-800 hover:text-white"
                :class="!isOpen ? 'transform -translate-x-96 invisible' : 'transform translate-x-0  visible'">
                 Home
             </a>
 
-            <a href="#about" @click="isOpen = false" class="flex items-center p-4 bg-white delay-100 duration-1000 hover:bg-gray-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
+            <a href="#about" @click="isOpen = false" class="flex items-center p-4 bg-white delay-100 duration-1000 hover:bg-purple-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
                  About
             </a>
 
-            <a href="#services" @click="isOpen = false" class="flex items-center p-4 bg-white delay-200 duration-1000 hover:bg-gray-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
+            <a href="#services" @click="isOpen = false" class="flex items-center p-4 bg-white delay-200 duration-1000 hover:bg-purple-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
                 Mes Services
             </a>
 
-            <a href="#portfolio" @click="isOpen = false" class="flex items-center p-4 bg-white delay-300 duration-1000 hover:bg-gray-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
+            <a href="#portfolio" @click="isOpen = false" class="flex items-center p-4 bg-white delay-300 duration-1000 hover:bg-purple-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
                 Portfolio
             </a>
 
-            <a href="#contact" @click="isOpen = false" class="flex items-center p-4 bg-white delay-500 duration-1000 hover:bg-gray-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
+            <a href="#contact" @click="isOpen = false" class="flex items-center p-4 bg-white delay-500 duration-1000 hover:bg-purple-800 hover:text-white  " :class="!isOpen ? 'transform -translate-x-96 ' : ' transform translate-x-0 duration-100'">
                 Contact
             </a>
 
